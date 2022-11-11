@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+.HOVERS{
+    font-weight: bold;
+    color: black;
+    padding-right: 30px;
+    font-size: medium;
+    text-transform: uppercase;
+}
+.HOVERS:hover{
+    color: rgb(176, 39, 39);
+    transition: .1s;
+    
+}
+
+.Download{
+    display: flex;
+    height: 45px;
+    width: 200px;
+    padding-top: 9;
+    outline: none;
+    border: none;
+    background: red;
+    color: #efefef;
+    border-radius: 60px;
+    font-size: large;
+    justify-content: center;
+}
+
+.Download:hover{
+    background: rgb(210, 85, 63);
+    transition: .5s;
+}
+.main {
+    /* background-color: rgb(228, 240, 261); */
+
+    
+}
+
+.Heading{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(43, 43, 112);
+    
+    
+}
+.p-head{
+    color: rgb(75, 61,61);
+    
+}
+.buttons1{
+    font-size: 1.3rem;
+    margin-top: 50px;
+    font-weight: 500;
+
+    
+}
+.btn1{
+    height: 45px;
+    width: 40%;
+    border: none;
+    outline: none;
+    background:black;
+    color: white;
+    border-radius: 60px;
+    margin: auto;
+}
+.btn1:hover{
+    background: rgb(209, 61, 35);
+    transition: .15s;
+
+}
+.btn2{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(46, 46, 159);
+    border-radius:60px ;
+    margin: auto;
+}
+.btn2:hover{
+    background: rgb(73, 109, 227);
+    transition: .15s;
+    color: white;
+}
+.span{
+    color: grey;
+    font-weight: 500;
+    font-size: larger;
+}
+.para{
+    font-size: 1.1rem;
+    color: grey;
+}
+.btn3{
+    height: 45px;
+    width: 40%;
+    border: none;
+    outline: none;
+    background:red;
+    color:wheat;
+    border-radius: 60px;
+    margin: auto;
+}
+.btn3:hover{
+    color: rgb(130, 130, 229);
+    transition: .5s;
+    
+}
+.course{
+    /* background-color: rgb(246, 232, 228); */
+}
+.pricing{
+    /* background-color: rgb(228, 240, 261); */
+}
+.pricing .card1{
+    background-color: rgb(209, 236, 234);
+    box-shadow: -1px 0px 19px -6px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 0px 19px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 0px 19px -6px rgba(0,0,0,0.75);
+}
+.pricing .card:hover{
+    box-shadow: -1px 0px 19px -6px rgba(0,0,0,0.75);
+-webkit-box-shadow: -6px 2px 19px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: -6px 2px 19px -6px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+footer{
+    background-color: aliceblue;
+}
